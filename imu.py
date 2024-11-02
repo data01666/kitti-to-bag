@@ -35,5 +35,5 @@ dt = dt.tolist()
 dt.append(0.01)
 dt = np.array(dt)
 print("dt > 0.015: \n{}".format(x[dt> 0.015])) # 打印时间差大于0.015的具体时间差
-plt.plot(x, timestamps, 'r', label='imu')　# 可视化ＩＭＵ的时间戳
+plt.plot(x, timestamps, 'r', label='imu')
 plt.show()
